@@ -1,59 +1,459 @@
 body {
-    background: #ffffff;
-} .particle {
-    position: absolute;
-     border-radius: 50%;
+    background: #ffffff;
 }
-.particle2 {
-    position: absolute;
-     border-radius: 50%;
+
+@keyframes particle-animation1 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation2 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation3 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation4 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation5 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation6 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation7 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation8 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation9 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation10 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation11 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation12 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation13 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation14 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation15 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation16 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation17 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation18 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation19 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation20 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation21 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation22 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation23 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation24 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation25 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation26 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation27 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation28 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation29 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation30 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+@keyframes particle-animation1 {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  }}
+
+.particle:nth-child(1) {
+	animation: particle-animation1 60s infinite;
+  $size: random(5) + 2 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #d43a00;
 }
-.particle3 {
-    position: absolute;
-     border-radius: 50%;
-} @for $i from 1 through 50 {
-    @keyframes particle-animation-#{$i} {
-        100% {
-            transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-        }
-    }      .particle:nth-child(#{$i}){
-        animation: particle-animation-#{$i} 60s infinite;
-        $size: random(5) + 5 + px;
-        /*opacity: random(100)/100;*/
-        height: $size;
-        width: $size;
-        animation-delay: -$i * .2s;
-        transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-        background: #3890E8;
-    }
-} @for $i from 1 through 50 {
-    @keyframes particle-animation-#{$i} {
-        100% {
-            transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-        }
-    }     .particle2:nth-child(#{$i}){
-        animation: particle-animation-#{$i} 60s infinite;
-        $size: random(5) + 5 + px;
-        /*opacity: random(100)/100;*/
-        height: $size;
-        width: $size;
-        animation-delay: -$i * .2s;
-        transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-        background: #d43a00;
-    }
-} @for $i from 1 through 50 {
-    @keyframes particle-animation-#{$i} {
-        100% {
-            transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-        }
-    }     .particle3:nth-child(#{$i}){
-        animation: particle-animation-#{$i} 60s infinite;
-        $size: random(5) + 5 + px;
-        /*opacity: random(100)/100;*/
-        height: $size;
-        width: $size;
-        animation-delay: -$i * .2s;
-        transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-        background: #434951;
-    }
+.particle:nth-child(2) {
+	animation: particle-animation2 60s infinite;
+  $size: random(5) + 2 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #d43a00;
+}
+.particle:nth-child(3) {
+	animation: particle-animation3 60s infinite;
+  $size: random(5) + 2 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #d43a00;
+}
+.particle:nth-child(4) {
+	animation: particle-animation4 60s infinite;
+  $size: random(5) + 2 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #d43a00;
+}
+.particle:nth-child(5) {
+	animation: particle-animation5 60s infinite;
+  $size: random(5) + 2 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #d43a00;
+}
+.particle:nth-child(6) {
+	animation: particle-animation6 60s infinite;
+  $size: random(5) + 2 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #d43a00;
+}
+.particle:nth-child(7) {
+	animation: particle-animation7 60s infinite;
+  $size: random(5) + 2 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #3890E8;
+}
+.particle:nth-child(8) {
+	animation: particle-animation8 60s infinite;
+  $size: random(5) + 2 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #3890E8;
+}
+.particle:nth-child(9) {
+	animation: particle-animation9 60s infinite;
+  $size: random(5) + 2 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #3890E8;
+}
+.particle:nth-child(10) {
+	animation: particle-animation10 60s infinite;
+  $size: random(5) + 2 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #3890E8;
+}
+.particle:nth-child(11) {
+	animation: particle-animation11 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(12) {
+	animation: particle-animation12 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(13) {
+	animation: particle-animation13 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(14) {
+	animation: particle-animation14 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(15) {
+	animation: particle-animation15 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(16) {
+	animation: particle-animation16 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(17) {
+	animation: particle-animation17 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(18) {
+	animation: particle-animation18 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(19) {
+	animation: particle-animation19 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(20) {
+	animation: particle-animation20 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(21) {
+	animation: particle-animation21 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(22) {
+	animation: particle-animation22 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(23) {
+	animation: particle-animation23 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(24) {
+	animation: particle-animation24 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(25) {
+	animation: particle-animation25 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(26) {
+	animation: particle-animation26 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(27) {
+	animation: particle-animation27 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(28) {
+	animation: particle-animation28 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(29) {
+	animation: particle-animation29 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
+}
+.particle:nth-child(30) {
+	animation: particle-animation30 60s infinite;
+  $size: random(5) + 5 + px;
+  height: $size;
+  width: $size;
+  animation-delay: -0.2;opacity: random(20)/2;
+  position: absolute;
+ 	border-radius: 50%;
+  transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+  background: #434951;
 }
